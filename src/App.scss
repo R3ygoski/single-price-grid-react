@@ -1,0 +1,39 @@
+@use './scss/var.scss';
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    width: 100%;
+    height: 100vh;
+    background: var.$lightGray;
+    &__card {
+        box-shadow: 5px 5px 15px rgba(0,0,0,.25);
+        height: 80%;
+        border-radius: .5rem;
+    }
+
+    .attribution { 
+        font-size: 12px; 
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        a { 
+            color: var.$cyan; 
+        }
+    }
+}
+
+@media (min-width: 1440px){
+    .main {
+        &__card {
+            display: flex;
+            flex-flow: row wrap;
+            width: 42.5%;
+            height: 460px;
+        }
+    }
+}

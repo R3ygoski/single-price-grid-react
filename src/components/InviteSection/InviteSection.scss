@@ -1,0 +1,44 @@
+@use '../../scss/var.scss';
+
+.section_invite {
+    background: var.$white;
+    width: 300px;
+    height: 35%;
+    padding: 1.125rem;
+    border-radius: .5rem .5rem 0 0;
+    &__title {
+        color: var.$cyan;
+        font-weight: 700;
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+    &__subtitle {
+        color: var.$brightYellow;
+        font-weight: 700;
+        font-size: .925rem;
+        margin-bottom: 1.2rem;
+    }
+    &__desc {
+        color: var.$grayishBlue;
+        line-height: 1.5rem;
+        font-size: .8rem;
+    }
+}
+
+@media (min-width: 1440px){
+    .section_invite {
+        width: 100%;
+        height: 45%;
+        padding: 2.75rem 2rem;
+        &__title {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        &__subtitle {
+            font-size: 1.2rem;
+        }
+        &__desc {
+            font-size: 1rem;
+        }
+    }
+}

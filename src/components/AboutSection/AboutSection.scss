@@ -1,0 +1,32 @@
+@use '../../scss/var.scss';
+
+.section_about {
+    background: var.$lightCyan;
+    width: 300px;
+    height: 32.5%;
+    padding: 1.125rem;
+    border-radius: 0 0 .5rem .5rem;
+    &__title {
+        color: var.$white;
+        font-weight: 700;
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+    &__list {
+        color: var.$lightGray;
+        list-style: none;
+        line-height: 1.25rem;
+    }
+}
+
+@media (min-width: 1440px){
+    .section_about {
+        width: 50%;
+        height: 55%;
+        padding: 2rem;
+        border-radius: 0 0 .5rem 0;
+        &__list {
+            font-size: 0.925rem;
+        }
+    }
+}
