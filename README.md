@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/single-price-comp-made-with-react-and-scss-k_FO7FxR-w))
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/single-price-comp-made-with-react-and-scss-k_FO7FxR-w)
 - Live Site URL: [Github](https://r3ygoski.github.io/single-price-grid-react/)
 
 ## My process
